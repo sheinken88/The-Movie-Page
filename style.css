@@ -1,0 +1,16 @@
+nav {
+    max-height: 70px;
+}
+
+#popcornIcon {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+#previousNext {
+    height: 80px;
+}
+
+#previousNext button {
+    width: 150px;
+}
