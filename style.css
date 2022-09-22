@@ -14,3 +14,34 @@ nav {
 #previousNext button {
     width: 150px;
 }
+
+figure {
+    cursor: pointer;
+    position: relative;
+}
+
+.overview {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 1rem;
+    word-wrap: break-word;
+    font-size: 0.8rem;
+    max-height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+
+
+}
+
+figure:hover .overview {
+    visibility: visible;
+}
+
+@media(max-width: 570px) {
+    .overview {
+        font-size: 1.5rem;
+    }
+}
